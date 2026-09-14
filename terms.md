@@ -30,6 +30,13 @@ Reply HELP for assistance.
 
 After opting out, no further SMS notifications will be sent unless the system owner intentionally re-enables SMS notifications and provides consent again.
 
+### Support
+
+For assistance with Home Alert SMS, contact the service operator at:
+https://github.com/piutejeff/home-alert-sms/issues
+
+Reply HELP to the SMS number for messaging assistance.
+
 ### Privacy
 
 Mobile phone numbers and SMS consent information are not shared with third parties or affiliates for marketing or promotional purposes.
