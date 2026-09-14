@@ -6,9 +6,17 @@ This SMS service provides automated home-monitoring and safety notifications gen
 
 ### How to Opt In
 
-This is a private home-monitoring system. The system owner opts in to SMS notifications by manually configuring their mobile phone number in Home Assistant and enabling SMS notifications for that number.
+This is a private home-monitoring system. The system owner is the sole SMS recipient.
 
-By enabling SMS notifications, the user expressly consents to receive automated text messages regarding home-monitoring events, including water leak alerts, temperature alerts, and equipment status notifications.
+The system owner opts in by manually configuring their own mobile phone number in the private Home Assistant configuration and enabling SMS notifications for that number. By configuring the mobile number for SMS notifications, the system owner expressly consents to receive automated home-monitoring and safety text messages.
+
+The screenshot below shows the Home Assistant configuration used for SMS notifications. The `To=` field contains the mobile number of the opted-in recipient. Twilio account credentials have been redacted for security.
+
+![Home Assistant SMS opt-in configuration](Screenshot%202026-09-14%20161418.png)
+
+### Messages
+
+Messages may include water leak alerts, temperature alerts, equipment status alerts, and other home-monitoring notifications.
 
 Message frequency varies depending on monitored events and system configuration.
 
