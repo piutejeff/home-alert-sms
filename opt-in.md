@@ -12,6 +12,8 @@ The system owner opts in by manually configuring their own mobile phone number i
 
 The screenshot below shows the Home Assistant configuration used for SMS notifications. The `To=` field contains the mobile number of the opted-in recipient. Twilio account credentials have been redacted for security.
 
+SMS messaging is optional and is not enabled automatically. The system owner must take affirmative action to opt in by manually entering their mobile phone number into the Home Assistant SMS configuration and enabling SMS notifications. If the mobile number is not configured and SMS notifications are not enabled, no SMS messages are sent. Consent is not required to use the Home Assistant system or any other service.
+
 ![Home Assistant SMS opt-in configuration](Screenshot%202026-09-14%20161418.png)
 
 ### Messages
