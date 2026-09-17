@@ -8,25 +8,43 @@ This SMS service provides automated home-monitoring and safety notifications gen
 
 This is a private home-monitoring system. The system owner is the sole SMS recipient.
 
-The system owner opts in by manually configuring their own mobile phone number in the private Home Assistant configuration and enabling SMS notifications for that number. By configuring the mobile number for SMS notifications, the system owner expressly consents to receive automated home-monitoring and safety text messages.
+SMS messaging is optional and is not enabled automatically. The system owner must take affirmative action to opt in by manually entering their own mobile phone number into the private Home Assistant SMS configuration and enabling SMS notifications for that number.
 
-The screenshot below shows the Home Assistant configuration used for SMS notifications. The `To=` field contains the mobile number of the opted-in recipient. Twilio account credentials have been redacted for security.
+By configuring their mobile number and enabling SMS notifications, the system owner expressly consents to receive automated home-monitoring and safety SMS messages from Jeffrey Baker.
 
-SMS messaging is optional and is not enabled automatically. The system owner must take affirmative action to opt in by manually entering their mobile phone number into the Home Assistant SMS configuration and enabling SMS notifications. If the mobile number is not configured and SMS notifications are not enabled, no SMS messages are sent. Consent is not required to use the Home Assistant system or any other service.
+If the mobile number is not configured and SMS notifications are not enabled, no SMS messages are sent. Consent is not required to use Home Assistant or any other service.
 
-SMS OPT-IN RECORD
-Recipient: +1 661-427-3786
-Brand/Sender: Jeffrey Baker
-Opt-in method: Manual Home Assistant configuration
-Consent action: The system owner manually entered this mobile number into the SMS configuration and enabled SMS notifications.
-Consent: I expressly consent to receive automated home-monitoring and safety SMS messages from Jeffrey Baker at the mobile number above.
-Message types: Water leak, temperature, equipment-status, and other home-monitoring alerts.
-Message frequency: Varies based on monitored events.
-Message and data rates may apply.
-Reply STOP to opt out. Reply HELP for assistance.
+### SMS Opt-In Record
+
+**Brand/Sender:** Jeffrey Baker
+
+**Recipient:** Mobile number shown in the Home Assistant configuration screenshot below
+
+**Opt-in method:** Manual Home Assistant configuration
+
+**Consent action:** The system owner manually entered their mobile number into the SMS configuration and enabled SMS notifications.
+
+**Consent:** I expressly consent to receive automated home-monitoring and safety SMS messages from Jeffrey Baker at the configured mobile number.
+
+**Date of opt-in:** September 2026
+
+**Message types:** Water leak alerts, temperature alerts, equipment-status alerts, and other home-monitoring notifications.
+
+**Message frequency:** Varies based on monitored events.
+
+**Message and data rates may apply.**
+
+**Opt out:** Reply STOP to opt out.
+
+**Help:** Reply HELP for assistance.
+
+**Confirmation after opt-in:** After SMS notifications are enabled, the recipient receives an enrollment confirmation stating: "Jeffrey Baker Home Monitoring: SMS alerts are enabled. Message frequency varies. Msg & data rates may apply. Reply HELP for help, STOP to cancel."
+
 SMS messaging is optional and is not required to use Home Assistant or any other service.
 
-The configuration screenshot below is the technical record showing the opted-in mobile number in the Home Assistant SMS configuration.
+### Opt-In Evidence
+
+The screenshot below shows the actual Home Assistant configuration used for SMS notifications. The `To=` field contains the mobile number of the opted-in recipient. Twilio account credentials have been redacted for security.
 
 ![Home Assistant SMS opt-in configuration](Screenshot%202026-09-14%20161418.png)
 
@@ -38,9 +56,9 @@ Message frequency varies depending on monitored events and system configuration.
 
 Message and data rates may apply.
 
-Reply STOP to opt out.
+**Reply STOP to opt out.**
 
-Reply HELP for assistance.
+**Reply HELP for assistance.**
 
 Consent to receive SMS messages is not a condition of purchasing any goods or services.
 
