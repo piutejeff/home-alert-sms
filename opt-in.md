@@ -14,6 +14,20 @@ The screenshot below shows the Home Assistant configuration used for SMS notific
 
 SMS messaging is optional and is not enabled automatically. The system owner must take affirmative action to opt in by manually entering their mobile phone number into the Home Assistant SMS configuration and enabling SMS notifications. If the mobile number is not configured and SMS notifications are not enabled, no SMS messages are sent. Consent is not required to use the Home Assistant system or any other service.
 
+SMS OPT-IN RECORD
+Recipient: +1 661-427-3786
+Brand/Sender: Jeffrey Baker
+Opt-in method: Manual Home Assistant configuration
+Consent action: The system owner manually entered this mobile number into the SMS configuration and enabled SMS notifications.
+Consent: I expressly consent to receive automated home-monitoring and safety SMS messages from Jeffrey Baker at the mobile number above.
+Message types: Water leak, temperature, equipment-status, and other home-monitoring alerts.
+Message frequency: Varies based on monitored events.
+Message and data rates may apply.
+Reply STOP to opt out. Reply HELP for assistance.
+SMS messaging is optional and is not required to use Home Assistant or any other service.
+
+The configuration screenshot below is the technical record showing the opted-in mobile number in the Home Assistant SMS configuration.
+
 ![Home Assistant SMS opt-in configuration](Screenshot%202026-09-14%20161418.png)
 
 ### Messages
